@@ -49,7 +49,7 @@
         "elements": [
           {
             "type": "text",
-            "text": "General What is Lorem Ipsum?",
+            "text": "What is Lorem Ipsum?",
             "settings": {
               "position": {
                 "x": "center",
