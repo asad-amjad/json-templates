@@ -1,0 +1,150 @@
+{
+  "composition_config": {
+    "compositionWidth": 1920,
+    "compositionHeight": 1080,
+    "durationInFrames": 600,
+    "fps": 30,
+    "controls": true,
+    "style": {
+      "margin": "0 auto",
+      "width": "100%"
+    },
+    "fps_options": {
+      "low": 20,
+      "hd": 30
+    }
+  },
+  "default_values": {
+    "remotionSequenceSelector": {
+      "component": "ClipsTemplate",
+      "className": ""
+    },
+    "scenes": [
+      {
+        "id": "scene-b",
+        "start_time": "00:00:01",
+        "end_time": "00:00:04",
+        "elements": [
+          {
+            "type": "blank",
+            "text": "",
+            "settings": {
+              "position": {
+                "x": "center",
+                "y": "top"
+              },
+              "fontSize": 4,
+              "color": "white",
+              "animation": "fadeIn",
+              "align": "alignLeft"
+            }
+          }
+        ]
+      },
+
+      {
+        "id": "scene-1",
+        "start_time": "00:00:04",
+        "end_time": "00:00:08",
+        "elements": [
+          {
+            "type": "text",
+            "text": "General What is Lorem Ipsum?",
+            "settings": {
+              "position": {
+                "x": "center",
+                "y": "top"
+              },
+              "fontSize": 4,
+              "color": "white",
+              "animation": "fadeIn",
+              "align": "alignLeft"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+            "settings": {
+              "position": {
+                "x": "center",
+                "y": "center"
+              },
+              "fontSize": 3,
+              "color": "white",
+              "animation": "fadeIn",
+              "align": "alignLeft"
+            }
+          }
+        ]
+      },
+      {
+        "id": "scene-2",
+        "start_time": "00:00:09",
+        "end_time": "00:00:15",
+        "elements": [
+          {
+            "type": "text",
+            "text": "Why do we use it?",
+            "settings": {
+              "position": {
+                "x": "center",
+                "y": "top"
+              },
+              "fontSize": 4,
+              "color": "white",
+              "animation": "fadeIn",
+              "align": "alignLeft"
+            }
+          },
+
+          {
+            "type": "text",
+            "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "settings": {
+              "position": {
+                "x": "center",
+                "y": "center"
+              },
+              "fontSize": 3,
+              "color": "white",
+              "animation": "fadeIn",
+              "align": "alignLeft"
+            }
+          },
+
+          {
+            "type": "text",
+            "text": "www.symmetriq.ai",
+            "settings": {
+              "position": {
+                "x": "center",
+                "y": "bottom"
+              },
+              "fontSize": 3,
+              "color": "white",
+              "animation": "fadeIn",
+              "align": "alignLeft"
+            }
+          }
+        ]
+      }
+    ],
+
+    "bg_elements": [
+      {
+        "type": "video",
+        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "settings": {
+          "volume": 0
+        }
+      },
+      {
+        "type": "audio",
+        "src": "https://json2video-test.s3.amazonaws.com/assets/audios/advertime.mp3",
+        "settings": {
+          "volume": 1
+        }
+      }
+    ]
+  }
+}
